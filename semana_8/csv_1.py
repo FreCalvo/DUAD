@@ -54,7 +54,7 @@ def write_file(file_path, data, headers):
         writer.writerows(data)
 
 
-#Func Main para definir lista inicial, count y ejecición de funciones.
+#Func Main para definir lista inicial, count y ejecición de funciones
 def main ():
     games_list = []
     count = 0
