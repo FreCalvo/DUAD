@@ -2,7 +2,7 @@
 
 
 def show_header():
-    return print('Scores Registration Software')
+    print('Scores Registration Software')
 
 
 def display_menu():

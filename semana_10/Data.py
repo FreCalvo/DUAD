@@ -10,9 +10,10 @@ def write_file(file_path, data, headers):
         writer.writerows(data)
 
 
-# Import data from CSV file.
-def read_file(file_path):
+# Import data from CSV file and print.
+def import_file(file_path):
     with open(file_path, 'r') as file:
         reader = csv.DictReader(file)
-        for row in reader:
-            print(row)
+        reader = csv.DictReader(file)
+        data = list(reader)
+        return data
