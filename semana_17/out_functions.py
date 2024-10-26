@@ -28,3 +28,5 @@ def store_information_in_data_list(income_expense, detail, amount, category, lis
     info_to_append = [income_expense, detail, amount, category]
     list_to_append.append(info_to_append)
     print(list_to_append)
+
+    

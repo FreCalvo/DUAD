@@ -44,5 +44,4 @@ def add_expense(data_array, file_name, list_categories):
                 add_expense_window['-DETAIL-'].Update('')
                 add_expense_window['-AMOUNT-'].Update('')
                 add_expense_window['-CATEGORY-'].Update('')
-
     add_expense_window.close()

@@ -3,8 +3,6 @@ import out_functions as l
 import data_import_export as d
 
 
-
-
 def add_income(data_array, file_name, list_categories):
     add_income_layout = [[sg.Text("Detail:"), sg.Input(key='-DETAIL-', do_not_clear=True, size=(20, 1)), sg.Text(key='-ERROR_1-')],
         [sg.Text("Amount:"), sg.Input(key='-AMOUNT-', do_not_clear=True, size=(10, 1)), sg.Text(key='-ERROR_2-')],

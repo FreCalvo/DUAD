@@ -56,4 +56,5 @@ def main_window():
             else:
                 print(data_array)
                 main_window['-INFORMATION_TABLE-'].Update(values=data_array)
+
 main_window()

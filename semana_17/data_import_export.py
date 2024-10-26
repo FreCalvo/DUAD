@@ -1,6 +1,7 @@
 import csv
 import os
 
+
 def export_data(data_array, file_name):
     """
     Exports data_array to a CSV file with the given filename.

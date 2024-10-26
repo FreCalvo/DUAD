@@ -2,6 +2,7 @@ import PySimpleGUI as sg
 import data_import_export as d
 import out_functions as l
 
+
 def add_category(list_categories, file_name):    
     
     headings = ["Categories"]
