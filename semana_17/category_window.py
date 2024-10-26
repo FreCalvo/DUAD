@@ -1,11 +1,6 @@
 import PySimpleGUI as sg
 import data_import_export as d
 import out_functions as l
-import stack as stack
-
-stack_list = []
-categories_stack = stack.Stack()
-
 
 def add_category(list_categories, file_name):    
     
